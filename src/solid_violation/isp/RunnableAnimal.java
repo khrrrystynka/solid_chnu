@@ -1,5 +1,5 @@
 package solid_violation.isp;
 
-public interface Runnable {
+public interface RunnableAnimal {
     void run();
 }

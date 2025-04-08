@@ -1,6 +1,6 @@
 package solid_violation.lsp;
 
-public class PetrolCar extends Vehicle implements Refuelable {
+public class PetrolCar extends Vehicle implements FuelVehicle {
   private static final int FUEL_TANK_FULL = 100;
   private int fuelTankLevel = 0;
 

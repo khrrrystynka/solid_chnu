@@ -1,6 +1,6 @@
 package solid_violation.isp;
 
-public class Dog implements Runnable, Barkable {
+public class Dog implements RunnableAnimal, BarkableAnimal {
     @Override
     public void run() {
         System.out.print("Dog is running");

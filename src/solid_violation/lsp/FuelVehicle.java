@@ -1,5 +1,5 @@
 package solid_violation.lsp;
 
-public interface Refuelable {
+public interface FuelVehicle {
     void fillUpWithFuel();
 }

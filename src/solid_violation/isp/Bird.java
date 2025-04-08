@@ -1,6 +1,6 @@
 package solid_violation.isp;
 
-public class Bird implements Flyable, Runnable {
+public class Bird implements RunnableAnimal, FlyableAnimal {
     @Override
     public void run() {
         System.out.print("Bird is running");

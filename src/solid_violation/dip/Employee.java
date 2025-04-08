@@ -8,7 +8,7 @@ public class Employee {
     private final LocalDate dateOfBirth;
     private final String email;
 
-    Employee(String firstName, String lastName, LocalDate dateOfBirth, String email) {
+    public Employee(String firstName, String lastName, LocalDate dateOfBirth, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
@@ -17,10 +17,6 @@ public class Employee {
 
     public String getFirstName() {
         return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
     }
 
     public LocalDate getDateOfBirth() {

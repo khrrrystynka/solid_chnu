@@ -1,5 +1,5 @@
 package solid_violation.isp;
 
-public interface Flyable {
+public interface FlyableAnimal {
     void fly();
 }

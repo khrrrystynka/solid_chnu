@@ -1,5 +1,5 @@
 package solid_violation.dip;
 
-public interface EmailService {
+public interface MessageSender {
     void send(Email email);
 }

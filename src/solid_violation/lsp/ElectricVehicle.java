@@ -1,5 +1,5 @@
 package solid_violation.lsp;
 
-public interface Rechargeable {
+public interface ElectricVehicle {
     void chargeBattery();
 }

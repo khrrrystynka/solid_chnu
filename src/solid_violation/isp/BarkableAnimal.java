@@ -1,5 +1,5 @@
 package solid_violation.isp;
 
-public interface Barkable {
+public interface BarkableAnimal {
     void bark();
 }

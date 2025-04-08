@@ -1,7 +1,6 @@
 package solid_violation.ocp;
 
 public class Engineer extends Employee {
-
     public Engineer(int salary) {
         super(salary);
     }
