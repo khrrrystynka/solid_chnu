@@ -1,11 +1,25 @@
 package solid_violation.ocp;
 
-public abstract class Employee {
-    protected int salary;
+public class Employee {
+    private final String name;
+    private final int baseSalary;
+    private final int bonus;
 
-    public Employee(int salary) {
-        this.salary = salary;
+    public Employee(String name, int baseSalary, int bonus) {
+        this.name = name;
+        this.baseSalary = baseSalary;
+        this.bonus = bonus;
     }
 
-    public abstract int payAmount();
+    public String getName() {
+        return name;
+    }
+
+    public int getBaseSalary() {
+        return baseSalary;
+    }
+
+    public int getBonus() {
+        return bonus;
+    }
 }

@@ -1,11 +1,11 @@
 package solid_violation.lsp;
 
 public class FillingStation {
-    public void refuel(FuelVehicle vehicle) {
+    public void refuel(Refuelable vehicle) {
         vehicle.fillUpWithFuel();
     }
 
-    public void charge(ElectricVehicle vehicle) {
+    public void charge(Rechargeable vehicle) {
         vehicle.chargeBattery();
     }
 }
